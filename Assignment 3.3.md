@@ -8,14 +8,15 @@ Score Grade
 If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
 ```python
 score = input("Enter Score: ")
-try:
-    s = float(score)
-except:
-    print("Error! Please enter a numeric input!")
-    quit()
+try: 
+    s = float(score)    #! 尝试将字符串score转化为float并赋值于变量s
+except: 
+    print("Error! Please enter a numeric input!")
+    quit()              #! 如果无法将string转换为float则输出错误提示并退出此次程序执行
+                        #! 如果转换成功，则开始执行接下来的if-elif-else语句
 if s < 0.0 or s > 1.0:
     print("Error! Please enter a numeric input between 0.0 and 1.0")
-    quit()
+    quit()              #! 如果无用户输入数值超过给定的范围则输出错误提示并退出此次程序执行
 elif s >= 0.9:
     g = 'A'
 elif s >= 0.8:

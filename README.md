@@ -1,2 +1,2 @@
 # Python
-coursera python 学习记录
+python 学习记录

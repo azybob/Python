@@ -19,7 +19,8 @@ print('Average spam confidence:',b/a)
 
 ## 示例：
 
-```Enter file name: mbox-short.txt
+```
+Enter file name: mbox-short.txt
 ```
 ```
 Average spam confidence: 0.750718518519

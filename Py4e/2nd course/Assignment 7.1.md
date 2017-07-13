@@ -12,6 +12,7 @@ for fh in fname:
 
 ## 示例：
 
-```Enter file name: words.txt
+```
+Enter file name: words.txt
 [文字without double whitespace]
 ```

@@ -8,9 +8,9 @@ if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 sns = {}
 
-for line in handle:
-    if not line.startswith('From '): continue
-    sns[line.split()[1]] = sns.get(line.split()[1],0) + 1
+for line in handle:                                            # 判断sns中是否包含以'From '开头的行的第二个单词
+    if not line.startswith('From '): continue                  # 如果包含，则为其计数 +1
+    sns[line.split()[1]] = sns.get(line.split()[1],0) + 1      # 如果不包含，则将其添加进sns这个dictationary，并为其计数 +1
 
 bw = None
 bc = None

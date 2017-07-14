@@ -17,8 +17,10 @@ print(lst)
 
 ## 示例
 ```
-Enter file name:
+Enter file name: romeo.txt
 ```
 
-['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']
+```['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', ```
+```'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', ```
+```'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']```
 

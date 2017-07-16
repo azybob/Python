@@ -22,6 +22,10 @@ print(sum)
 
 # import re
 # print( sum( [ int(i) for i in re.findall('[0-9]+',open('regex_sum_6917.txt').read())]))
+# 以上和以下的一行代码, 简单来说, 就是：
+
+# int(i)是函数, 通过遍历所有从'regex_sum_6917.txt', 这个文件中读取的, 
+# 仅包含数字的元素, 然后进行int(), 取整
 
 # import re
 # print( sum( [ int(i) for i in re.findall('[0-9]+',open(input('Enter file name:\n'),'r').read())]))
